@@ -1,6 +1,4 @@
 <?php
-<?php
-
 session_start();
 
 include "include/include_db_oo.php";
@@ -19,7 +17,7 @@ if($result->num_rows > 0){
             $_SESSION['users_id'] = $row['users_id'];
 
             echo "Login Success";
-            header("Location: index.php");
+            header("Location: home.php");
 
         }
         else{

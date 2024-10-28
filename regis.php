@@ -66,7 +66,7 @@
 
                 <div class="mb-3">
                     <label for="phone" class="form-label">เบอร์โทรศัพท์</label>
-                    <input type="tel" class="form-control" name="phone" placeholder="เบอร์โทรศัพท์" required>
+                    <input type="tel" class="form-control" name="phoneNumber" placeholder="เบอร์โทรศัพท์" required>
                 </div>
 
                 <div class="mb-3">

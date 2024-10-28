@@ -1,22 +1,22 @@
 body{
-    background-color: #845691;
+    background-color: hsl(326, 58%, 84%);
     color: hsl(0, 0%, 0%);
 }
 
 
 .btn-primary{
-    background-color: rgb(255, 230, 0);
+    background-color: hsl(29, 97%, 53%);
     border: none;
     color: black;
     width: 100%;
 }
 
 .btn-primary:hover{
-    background-color: rgb(255, 230, 0);
+    background-color: hsl(29, 97%, 53%);
     color: black;
 }
 
 .btn-primary:focus{
-    background-color: rgb(255, 230, 0);
+    background-color: rgb(247, 116, 29);
     color: black;
 }
