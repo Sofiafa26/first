@@ -86,7 +86,7 @@ if ($result->num_rows > 0) {
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q2" value="b" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">แจ๊ส</label>
+                                <label class="form-check-label" for="flexRadioDefault2">R&b</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q2" value="c" id="flexRadioDefault3">
@@ -106,22 +106,23 @@ if ($result->num_rows > 0) {
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">ข้อที่ 3</h5>
-                            <p class="card-text">คำถาม คุณชอบฟังเพลงจากยุคไหนมากที่สุด</p>
+                            <p class="card-text">คำถาม เวลาขับรถหรือเดินทาง คุณมักจะเลือกฟังเพลงแบบไหน
+                            </p>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q3" value="a" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">ยุค 80s-90s</label>
+                                <label class="form-check-label" for="flexRadioDefault1">เพลง แสงสุดท้าย</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q3" value="b" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">ยุค 2000s</label>
+                                <label class="form-check-label" for="flexRadioDefault2">เพลง พิง</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q3" value="c" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">ยุคปัจจุบัน</label>
+                                <label class="form-check-label" for="flexRadioDefault3">เพลง ก่อนฤดูฝน</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q3" value="d" id="flexRadioDefault4">
-                                <label class="form-check-label" for="flexRadioDefault4">ยุคก่อน 80s</label>
+                                <label class="form-check-label" for="flexRadioDefault4">เพลง วายร้าย</label>
                             </div>
                         </div>
                     </div>
@@ -136,19 +137,19 @@ if ($result->num_rows > 0) {
                             <p class="card-text">คำถาม คุณชอบฟังเพลงที่เน้นเสียงร้องหรือลีลาการเล่นดนตรีมากกว่ากัน</p>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q4" value="a" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">เน้นเสียงร้อง</label>
+                                <label class="form-check-label" for="flexRadioDefault1">เน้นเสียงดนตรี</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q4" value="b" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">เน้นดนตรี</label>
+                                <label class="form-check-label" for="flexRadioDefault2">เน้นเสียงร้อง</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q4" value="c" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">ชอบทั้งสองอย่าง</label>
+                                <label class="form-check-label" for="flexRadioDefault3">เน้นทั้งสองอย่าง</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q4" value="d" id="flexRadioDefault4">
-                                <label class="form-check-label" for="flexRadioDefault4">ไม่ซีเรียส เน้นความสนุก</label>
+                                <label class="form-check-label" for="flexRadioDefault4">เน้นเสียงและองค์ประกอบ</label>
                             </div>
                         </div>
                     </div>
@@ -163,19 +164,19 @@ if ($result->num_rows > 0) {
                             <p class="card-text">คำถาม คุณชอบฟังเพลงที่มีเนื้อหาประมาณไหน</p>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q5" value="a" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">ความรักและการอกหัก</label>
+                                <label class="form-check-label" for="flexRadioDefault1">ปัญหาสังคม มีการเล่าเรื่องราว</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q5" value="b" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2"> การใช้ชีวิต</label>
+                                <label class="form-check-label" for="flexRadioDefault2"> ความรักและอารมณ์ที่ลึกซึ้ง </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q5" value="c" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">สังคมและโลกปัจจุบัน</label>
+                                <label class="form-check-label" for="flexRadioDefault3">ประสบการณ์ในชีวิต</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q5" value="d" id="flexRadioDefault4">
-                                <label class="form-check-label" for="flexRadioDefault4">จินตนาการและความฝัน</label>
+                                <label class="form-check-label" for="flexRadioDefault4">เรื่องราวชีวิต การต่อสู้ ความฝัน</label>
                             </div>
                         </div>
                     </div>
@@ -217,19 +218,19 @@ if ($result->num_rows > 0) {
                             <p class="card-text">คำถาม แนวเพลงไหนที่คุณคิดว่าแสดงออกถึงความเป็นตัวเองมากที่สุด</p>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q7" value="a" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">ร็อค/เมทัล</label>
+                                <label class="form-check-label" for="flexRadioDefault1">ร็อค</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q7" value="b" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">โซล/R&B</label>
+                                <label class="form-check-label" for="flexRadioDefault2">R&B</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q7" value="c" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3"> ป๊อป/ซินธ์ป๊อป</label>
+                                <label class="form-check-label" for="flexRadioDefault3"> ป๊อป</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q7" value="d" id="flexRadioDefault4">
-                                <label class="form-check-label" for="flexRadioDefault4">ฮิปฮอป/แร็ป</label>
+                                <label class="form-check-label" for="flexRadioDefault4">ฮิปฮอป</label>
                             </div>
                         </div>
                     </div>
@@ -241,22 +242,22 @@ if ($result->num_rows > 0) {
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">ข้อที่ 8</h5>
-                            <p class="card-text">คำถาม คุณสนใจในเพลงที่มีเนื้อหาเกี่ยวกับความหมายลึกซึ้งไหม</p>
+                            <p class="card-text">คำถาม คุณชอบอัลบั้มจากศิลปินใด</p>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q8" value="a" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1"> ชอบมาก</label>
+                                <label class="form-check-label" for="flexRadioDefault1"> บอดี้สแลม </label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q8" value="b" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">ชอบบ้าง</label>
+                                <label class="form-check-label" for="flexRadioDefault2">นนท์ ธนนท์</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q8" value="c" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3"> เฉยๆ</label>
+                                <label class="form-check-label" for="flexRadioDefault3">Taylor Swift</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q8" value="d" id="flexRadioDefault4">
-                                <label class="form-check-label" for="flexRadioDefault4">ไม่ค่อยสนใจ</label>
+                                <label class="form-check-label" for="flexRadioDefault4">D Gerrard</label>
                             </div>
                         </div>
                     </div>
@@ -268,22 +269,22 @@ if ($result->num_rows > 0) {
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">ข้อที่ 9</h5>
-                            <p class="card-text">คำถาม ถ้าให้คุณฟังเพลงที่ไม่ค่อยรู้จัก คุณจะเลือกแนวไหน</p>
+                            <p class="card-text">คำถาม คุณชอบเสียงร้องแบบไหนในเพลง</p>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q9" value="a" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">โฟล์ค/บลูส์</label>
+                                <label class="form-check-label" for="flexRadioDefault1">เสียงสูง ทรงพลัง</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q9" value="b" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">อินดี้ร็อค</label>
+                                <label class="form-check-label" for="flexRadioDefault2">เสียงนุ่ม ละมุน</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q9" value="c" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">เพลงชาติพันธุ์หรือแนวทดลอง</label>
+                                <label class="form-check-label" for="flexRadioDefault3">เเสียงสดใส ร่าเริง</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q9" value="d" id="flexRadioDefault4">
-                                <label class="form-check-label" for="flexRadioDefault4">อิเล็กทรอนิกส์</label>
+                                <label class="form-check-label" for="flexRadioDefault4">เสียงเป็นเอกลักษณ์</label>
                             </div>
                         </div>
                     </div>
@@ -295,18 +296,18 @@ if ($result->num_rows > 0) {
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">ข้อที่ 10</h5>
-                            <p class="card-text">คำถาม คุณคิดว่าเพลงแบบไหนที่ทำให้คุณรู้สึกมีความสุขที่สุด</p>
+                            <p class="card-text">คำถาม ถ้าไปคอนเสิร์ต คุณอยากได้บรรยากาศแบบไหน</p>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q10" value="a" id="flexRadioDefault1">
-                                <label class="form-check-label" for="flexRadioDefault1">เพลงที่มีทำนองสนุกสนาน</label>
+                                <label class="form-check-label" for="flexRadioDefault1">มีการแสดงสดเต็มรูปแบบ</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q10" value="b" id="flexRadioDefault2">
-                                <label class="form-check-label" for="flexRadioDefault2">เพลงที่ให้กำลังใจ</label>
+                                <label class="form-check-label" for="flexRadioDefault2">บรรยากาศอบอุ่น สบายๆ</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q10" value="c" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">เพลงที่ช่วยผ่อนคลาย</label>
+                                <label class="form-check-label" for="flexRadioDefault3">เสนุกสุดเหวี่ยง</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q10" value="d" id="flexRadioDefault4">
