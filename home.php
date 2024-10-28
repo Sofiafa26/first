@@ -62,8 +62,8 @@ if ($result->num_rows > 0) {
                     <a href="quiz.php" style="text-decoration: none;">
                         <div class="card-home mb-4">
                             <div class="card-body">
-                                <h5 class="card-title">แบบสอบถาม ..........................</h5>
-                                <p class="card-text">..................................</p>
+                                <h5 class="card-title">แบบสอบถามแนวเพลงที่ชอบ</h5>
+                                <p class="card-text">แบบสอบถามนี้จะแนะนำรายการแนวเพลงที่หลากหลายตามรสนิยมของคุณ</p>
                             </div>
                         </div>
                     </a>
