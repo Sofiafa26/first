@@ -30,7 +30,7 @@ body {
     border-radius: 15px;
     transition: transform 0.2s, box-shadow 0.3s;
     background-color: #edd682;
-    color: white;
+    color: black;
     padding: 20px;
 }
 .card-home:hover {
