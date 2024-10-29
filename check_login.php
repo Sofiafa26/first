@@ -21,7 +21,9 @@ if($result->num_rows > 0){
 
         }
         else{
-            echo "Password Incorrect";
+            echo "<h1 style='color: red;'>Password is incorrect</h1>";
+            //cooldown time
+            header("refresh: 2; url=login.php");
         }
     }
 
