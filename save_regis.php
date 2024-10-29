@@ -36,6 +36,9 @@ VALUES ('$prefix', '$firstName', '$lastName',
       '$address')";
 if($conn->query($sql)===TRUE){
     echo"บันทึกสำเร็จ";
+
+    //wait 3 sec and redirect to login page
+    header("refresh:3;url=login.php");
 }else{
     echo"บันทึกข้อมูลมีปัญหากรุณาติดต่อ Admin";
 }
