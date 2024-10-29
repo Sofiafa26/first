@@ -2,7 +2,7 @@
 $servername = "localhost";
 $username = "root";
 $hostpassword = "";
-$dbname = "cdte_65_frist";
+$dbname = "cdte_65_1";
 
 $conn = new mysqli($servername, $username, $hostpassword, $dbname);
 $conn -> set_charset("utf8");
