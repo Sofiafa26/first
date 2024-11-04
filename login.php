@@ -1,4 +1,4 @@
-!<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -13,6 +13,7 @@
 
     <div class="row">
         <div class="col-lg-6 mx-auto box-login">
+        <img src="assets/images/login.jpg" class="mx-auto d-block" width="100" alt="" srcset="">
         <h2 class="mb-4 text-center">LOGIN</h2>
         <form action="check_login.php" method="post">
 

@@ -41,8 +41,6 @@ $(document).ready(function() {
             answers.push(answer);
         }
 
-        console.log(answers);
-
         // คำนวณคะแนนและแสดงผลลัพธ์
         const result = calculateResults(answers);
         
@@ -64,9 +62,13 @@ $(document).ready(function() {
                     },
                     success: function(response) {
                         console.log(response);
+
+                        //redirect to result page
+                        window.location.href = "home.php";
                     }
                     
-                })
+                });
+                
 
 
 
