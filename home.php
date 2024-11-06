@@ -45,7 +45,11 @@ if ($result->num_rows > 0) {
 
     <div class="d-flex">
         <nav class="sidebar flex-shrink-0 p-3">
-            <h4 class="text-white text-center">Home</h4>
+        <h4 class="text-white text-center d-flex align-items-center justify-content-center">
+            <img src="assets/images/login.jpg" alt="Logo" style="width: 30px; height: 30px; margin-right: 10px;">
+            Home
+        </h4>
+
             <ul class="nav flex-column">
                 <li class="nav-item">
                     <a class="nav-link" href="profile.php"><i class="fas fa-users"></i> <?php echo $user["users_name"] ?></a>
