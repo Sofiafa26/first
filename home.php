@@ -46,8 +46,8 @@ if ($result->num_rows > 0) {
     <div class="d-flex">
         <nav class="sidebar flex-shrink-0 p-3">
         <h4 class="text-white text-center d-flex align-items-center justify-content-center">
-            <img src="assets/images/login.jpg" alt="Logo" style="width: 30px; height: 30px; margin-right: 10px;">
-            Home
+        <a class="" href="home.php"><img src="assets/images/login.jpg" alt="Logo" style="width: 30px; height: 30px; margin-right: 10px;">
+            Home</a>
         </h4>
 
             <ul class="nav flex-column">
