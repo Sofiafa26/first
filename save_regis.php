@@ -40,9 +40,13 @@ if($conn->query($sql)===TRUE){
     //wait 3 sec and redirect to login page
     header("refresh:3;url=login.php");
 }else{
+    //cooldown time
+    header("refresh: 2; url=regis.php");
     echo"บันทึกข้อมูลมีปัญหากรุณาติดต่อ Admin";
 }
 }else{
+    //cooldown time
+    header("refresh: 2; url=regis.php");
     echo"E-mailที่ใช้ในการสมัครซ้ำกับข้อมูลที่มี";
 }
 ?>
