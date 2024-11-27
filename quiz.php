@@ -281,7 +281,7 @@ if ($result->num_rows > 0) {
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q9" value="c" id="flexRadioDefault3">
-                                <label class="form-check-label" for="flexRadioDefault3">เเสียงสดใส ร่าเริง</label>
+                                <label class="form-check-label" for="flexRadioDefault3">เสียงสดใส ร่าเริง</label>
                             </div>
                             <div class="form-check">
                                 <input class="form-check-input" type="radio" name="q9" value="d" id="flexRadioDefault4">
