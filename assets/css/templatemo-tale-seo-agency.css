@@ -100,7 +100,7 @@ ul {
 p {
   font-size: 15px;
   line-height: 30px;
-  color: #afafaf;
+  color: #000000;
 }
 
 img {
@@ -119,7 +119,7 @@ body {
 }
 
 ::selection {
-  background: #5b03e4;
+  background: #e393d1;
   color: #fff;
 }
 
@@ -335,9 +335,9 @@ Header Style
 .header-area {
   position: absolute;
   background: rgb(85,0,227);
-  background: linear-gradient(90deg, rgba(85,0,227,1) 0%, rgba(198,61,255,1) 100%);
-  height: 110px;
-  top: 57px;
+  background: linear-gradient(90deg, rgb(231, 98, 164) 0%, rgb(235, 173, 215) 100%);
+  height: 150px;
+  top: 0%;
   left: 0;
   right: 0;
   z-index: 100;
@@ -828,8 +828,8 @@ Banner Style
 }
 
 .main-banner:after {
-  content: url(../images/banner-right.png);
-  top: -1px;
+  content: url(../images/การ์ตูน.png);
+  top: 65px;
   right: 0;
   position: absolute;
   width: 861px;
